@@ -1,0 +1,10 @@
+{
+  "name": "@monorepo-template/server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@monorepo-template/common": "1.0.0",
+    "graphql-yoga": "^1.16.7"
+  }
+}
