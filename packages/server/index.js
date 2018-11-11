@@ -1,3 +1,3 @@
 const commonFunction = require('@monorepo-template/common');
 
-commonFunction();
+console.log(commonFunction());
