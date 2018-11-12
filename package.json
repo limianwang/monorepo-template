@@ -1,4 +1,22 @@
 {
   "private": true,
-  "workspaces": ["packages/*"]
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run build"
+  },
+  "nohoist": [
+    "**/react-native",
+    "**/react-native/**",
+    "**/expo",
+    "**/expo/**",
+    "**/react-native-typescript-transformer",
+    "**/react-native-typescript-transformer/**",
+    "**/metro-bundler-config-yarn-workspaces",
+    "**/metro-bundler-config-yarn-workspaces/**"
+  ],
+  "devDependencies": {
+    "lerna": "^3.4.3"
+  }
 }

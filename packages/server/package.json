@@ -5,5 +5,14 @@
   "license": "MIT",
   "dependencies": {
     "@monorepo-template/common": "1.0.0"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.5",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.6"
   }
 }
