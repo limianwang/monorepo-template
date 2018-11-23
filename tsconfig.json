@@ -12,8 +12,8 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
+    "lib": ["es2015"],
     "types": [
-      "node",
       "react",
       "react-native"
     ]
